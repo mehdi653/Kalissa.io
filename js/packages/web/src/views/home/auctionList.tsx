@@ -4,6 +4,7 @@ import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
 import { HowToBuyModal } from '../../components/HowToBuyModal';
+import { HowToWorkModal } from '../../components/HowToWorkModal';
 
 import { AuctionViewState, useAuctions, AuctionView } from '../../hooks';
 
@@ -145,6 +146,7 @@ export const AuctionListView = () => {
         headingText={'LIMITED & nft  .'}
         subHeadingText={'Collection of clothes unique.'}
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
+        actionComponent2={<HowToWorkModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
       <Layout>
