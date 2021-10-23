@@ -109,7 +109,7 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/kaliLOGO.svg'} />
+      <img src={'/KALISSA.png} />
     </Link>
   );
 };
