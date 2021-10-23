@@ -3,7 +3,8 @@ import { Col, Layout, Row, Tabs } from 'antd';
 import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
-import { HowToWorkModal } from '../../components/HowToWorkModal';
+import { HowToBuyModal } from '../../components/HowToBuyModal';
+
 
 import { AuctionViewState, useAuctions, AuctionView } from '../../hooks';
 
