@@ -142,8 +142,8 @@ export const AuctionListView = () => {
     <>
       <Banner
         src={'/kalibanniere2.svg'}
-        headingText={'Kalissa luxury & nft  .'}
-        subHeadingText={'Collection of clothes in very limited editions.'}
+        headingText={'LIMITED & nft  .'}
+        subHeadingText={'Collection of clothes unique.'}
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
