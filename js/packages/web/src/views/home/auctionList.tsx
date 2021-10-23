@@ -1,6 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react';
 import { LABELS } from '../../constants';
-import { InstructionsModal } from '../InstructionsModal';
+import { InstructionsModal } from '../../components/InstructionsModal';
 import { Col, Layout, Row, Tabs } from 'antd';
 import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
