@@ -109,7 +109,7 @@ const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/KALISSA.png'} />
+      <img src={'/KaliL.png'} />
     </Link>
   );
 };

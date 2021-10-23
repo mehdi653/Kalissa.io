@@ -141,7 +141,7 @@ export const AuctionListView = () => {
   return (
     <>
       <Banner
-        src={'/kaliLOGO.svg'}
+        src={'/kalibanniere2.svg'}
         headingText={'Kalissa luxury & nft  .'}
         subHeadingText={'Collection of clothes in very limited editions.'}
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
