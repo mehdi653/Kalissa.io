@@ -1,4 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react';
+import { LABELS } from '../../constants';
+import { InstructionsModal } from '../InstructionsModal';
 import { Col, Layout, Row, Tabs } from 'antd';
 import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
@@ -154,7 +156,29 @@ export const AuctionListView = () => {
           <Col style={{ width: '100%', marginTop: 32 }}>
             <Row>
               <p>test d'eciture </p>
-              
+              <InstructionsModal
+      
+      
+      modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
+      cardProps={[
+        {
+          title: 'Create a SOL wallet',
+          imgSrc: '/modals/how-to-buy-1.svg',
+          description: `SOL is the cryptocurrency we use for purchases on ${LABELS.STORE_NAME}. To keep your SOL safe, you’ll need a crypto wallet—we recommend using one called Phantom. Just head to Phantom’s site, install the Chrome extension, and create an account.`,
+        },
+        {
+          title: 'Add funds to your wallet',
+          imgSrc: '/modals/how-to-buy-2.svg',
+          description: `To fund your wallet, you’ll need to purchase SOL tokens. The easiest way is with a credit card on FTX Pay—a service that’s already part of your new Phantom wallet. Open your wallet, tap “Deposit SOL”, and select “Deposit from FTX”. A new window will open where you can create an FTX account and purchase SOL.`,
+        },
+        {
+          title: `Connect your wallet to ${LABELS.STORE_NAME}.`,
+          imgSrc: '/modals/how-to-buy-3.jpg',
+          description: `To connect your wallet, tap “Connect Wallet” here on the site. Select the Phantom option, and your wallet will connect. After that, you can start bidding on NFTs.`,
+        },
+      ]}
+     
+    />
              
             </Row>
           </Col>
