@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
-import { Icon } from 'react-native-elements';
 
 
 
@@ -152,14 +151,6 @@ export const AuctionListView = () => {
       />
       <h1>Welcome to the first collector's item brand supported by the NFT</h1>
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
-      <Icon
-      name='rowing' />
-
-      <Icon
-      name='g-translate'
-      color='#00aced' />
-
-      
       <Layout>
      
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
