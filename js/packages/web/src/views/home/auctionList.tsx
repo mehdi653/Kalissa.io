@@ -154,8 +154,8 @@ export const AuctionListView = () => {
       <h1>Welcome to the first collector's clothing brand supported by nft</h1>
       <Banner2
         src={'/kalibanniere2.svg'}
-        headingText={'LIMITED & nft  .'}
-        subHeadingText={'Collection of clothes unique.'}
+        headingText={''}
+        subHeadingText={''}
         actionComponent={<HowToWorkModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
