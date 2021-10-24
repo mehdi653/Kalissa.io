@@ -149,8 +149,9 @@ export const AuctionListView = () => {
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
-      <h1>Welcome to the first collector's clothing brand supported by nft</h1>
+      <h1>Welcome to the first collector's item brand supported by the NFT</h1>
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
+      src={'/Howtowork.svg'}
       <Layout>
      
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
