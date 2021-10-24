@@ -14,9 +14,8 @@ export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
 }) => {
   return (
     <InstructionsModal
-      buttonClassName={buttonClassName}
-      buttonText="How to Buy"
-      modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
+      ////buttonText="How to Buy"
+      //modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
       cardProps={[
         {
           title: 'Create a SOL wallet',
@@ -32,10 +31,10 @@ export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
           title: `Connect your wallet to ${LABELS.STORE_NAME}.`,
           imgSrc: '/modals/how-to-buy-3.jpg',
           description: `To connect your wallet, tap “Connect Wallet” here on the site. Select the Phantom option, and your wallet will connect. After that, you can start bidding on NFTs.`,
-          endElement: <ConnectButton className={'secondary-btn'} />,
+         // endElement: <ConnectButton className={'secondary-btn'} />,
         },
       ]}
-      onClick={onClick}
+      //onClick={onClick}
     />
   );
 };
