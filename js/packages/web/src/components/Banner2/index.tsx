@@ -1,7 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 
-export const Banner = (props: {
+export const Banner2 = (props: {
   src: string;
   useBannerBg: boolean;
   headingText: string;
