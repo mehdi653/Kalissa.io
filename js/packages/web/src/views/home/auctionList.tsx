@@ -147,7 +147,7 @@ export const AuctionListView = () => {
         useBannerBg={true}
       />
       <Layout>
-       <Col>
+       <Col style={{ width: '100%', marginTop: 32 }}>
           <Row>
             <Col xs>First, but unordered</Col>
             <Col xs={{ order: 12 }}>Second, but last</Col>
