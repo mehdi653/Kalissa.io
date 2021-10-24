@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
+import { Banner2 } from '../../components/Banner2';
 
 
 
@@ -151,7 +152,13 @@ export const AuctionListView = () => {
         useBannerBg={true}
       />
       <h1>Welcome to the first collector's clothing brand supported by nft</h1>
-  
+      <Banner2
+        src={'/kalibanniere2.svg'}
+        headingText={'LIMITED & nft  .'}
+        subHeadingText={'Collection of clothes unique.'}
+        actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
+        useBannerBg={true}
+      />
   );
       <Layout>
      
