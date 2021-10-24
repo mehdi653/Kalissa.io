@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
-import { Banner2 } from '../../components/Banner2';
 
 
 
