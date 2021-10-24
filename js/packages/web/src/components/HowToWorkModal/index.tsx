@@ -1,4 +1,4 @@
-import { InstructionsModal } from '../InstructionsModal';
+import { InstructionsModalWork } from '../InstructionsModalWork';
 import React from 'react';
 import { LABELS } from '../../constants';
 import { ConnectButton } from '@oyster/common';
@@ -13,7 +13,7 @@ export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
   onClick,
 }) => {
   return (
-    <InstructionsModal
+    <InstructionsModalWork
       buttonClassName={buttonClassName}
       buttonText="How to Work"
       modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
