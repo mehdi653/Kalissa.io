@@ -151,7 +151,7 @@ export const AuctionListView = () => {
       />
       <h1>Welcome to the first collector's item brand supported by the NFT</h1>
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
-      <img src="/Howtowork.svg" width="100%"></img>
+      
       <Layout>
      
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
