@@ -1,5 +1,6 @@
 import { useWallet } from '@solana/wallet-adapter-react';
 import { InstructionsModal } from '../../components/InstructionsModal';
+import { InstructionsModal2 } from '../../components/InstructionsModal2';
 import { LABELS } from '../../constants';
 import { Col, Layout, Row, Tabs } from 'antd';
 import BN from 'bn.js';
@@ -156,7 +157,7 @@ export const AuctionListView = () => {
         src={'/kalibanniere2.svg'}
         headingText={''}
         subHeadingText={''}
-        //actionComponent={<HowToWorkModal buttonClassName="secondary-btn" />}
+        actionComponent={<HowToWorkModal />}
         useBannerBg={true}
       />
   );
