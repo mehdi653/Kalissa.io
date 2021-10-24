@@ -154,7 +154,7 @@ export const AuctionListView = () => {
         headingText={'LIMITED & nft  .'}
         subHeadingText={'Collection of clothes unique.'}
         actionComponent={<HowToWorkModal buttonClassName="secondary-btn" />}
-        useBannerBg={false}
+        useBannerBg={true}
       />
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
