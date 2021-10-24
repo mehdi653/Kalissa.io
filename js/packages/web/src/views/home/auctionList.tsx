@@ -5,11 +5,7 @@ import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
 import { HowToBuyModal } from '../../components/HowToBuyModal';
-import { HowToWorkModal } from '../../components/HowToWorkModal';
-
-
 import { AuctionViewState, useAuctions, AuctionView } from '../../hooks';
-
 import { AuctionRenderCard } from '../../components/AuctionRenderCard';
 import { Link } from 'react-router-dom';
 import { CardLoader } from '../../components/MyLoader';
@@ -154,13 +150,6 @@ export const AuctionListView = () => {
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Col style={{ width: '100%', marginTop: 32 }}>
-          <Banner
-        src={'/kalibanniere2.svg'}
-        headingText={'LIMITED & nft  .'}
-        subHeadingText={'Collection of clothes unique.'}
-        actionComponent={<HowToWorkModal buttonClassName="secondary-btn" />}
-        useBannerBg={true}
-      />
             <Row>
               <Tabs
                 activeKey={activeKey}
