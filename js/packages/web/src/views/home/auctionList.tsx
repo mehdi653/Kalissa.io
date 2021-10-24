@@ -1,6 +1,5 @@
 import { useWallet } from '@solana/wallet-adapter-react';
 import { InstructionsModal } from '../../components/InstructionsModal';
-import { InstructionsModal2 } from '../../components/InstructionsModal2';
 import { LABELS } from '../../constants';
 import { Col, Layout, Row, Tabs } from 'antd';
 import BN from 'bn.js';
@@ -153,13 +152,7 @@ export const AuctionListView = () => {
         useBannerBg={true}
       />
       <h1>Welcome to the first collector's clothing brand supported by nft</h1>
-      <Banner2
-        src={'/kalibanniere2.svg'}
-        headingText={''}
-        subHeadingText={''}
-        actionComponent={<HowToWorkModal />}
-        useBannerBg={true}
-      />
+      
   );
       <Layout>
      
