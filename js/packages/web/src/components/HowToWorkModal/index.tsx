@@ -1,4 +1,4 @@
-import { InstructionsModal } from '../InstructionsModal';
+import { InstructionsModal2 } from '../InstructionsModal2';
 import React from 'react';
 import { LABELS } from '../../constants';
 import { ConnectButton } from '@oyster/common';
@@ -11,7 +11,7 @@ export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
   
 }) => {
   return (
-    <InstructionsModal
+    <InstructionsModal2
       ////buttonText="How to Buy"
       //modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
       cardProps={[
