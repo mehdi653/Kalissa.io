@@ -35,11 +35,8 @@ export const Banner2 = (props: {
     <>
       <div id="mobile-banner">
         <img className="banner-img" src={props.src} />
-        <div className="banner-content">
-          <div id={'main-heading'}>{props.headingText}</div>
-          <div id={'sub-heading'}>{props.subHeadingText}</div>
-          {props.actionComponent}
-        </div>
+          
+       
       </div>
       <div
         id={'current-banner'}
