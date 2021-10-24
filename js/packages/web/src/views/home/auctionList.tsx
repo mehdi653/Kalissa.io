@@ -147,7 +147,7 @@ export const AuctionListView = () => {
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
-      <h1>Welcome to the first collector's clothing brand supported by nft</h1>
+      <h1><span style="color: #ffffff;">Welcome to the first collector's clothing brand supported by nft </span></h1>
 
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
