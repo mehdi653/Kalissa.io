@@ -81,7 +81,7 @@ export const InstructionsModal: React.FC<ModalProps> = ({
   cardProps,
   onClick,
 }) => {
-  const [isModalVisible, setIsModalVisible] = useState(true);
+  const [isModalVisible, setIsModalVisible] = useState(false);
 
   const showModal = () => {
     onClick ? onClick() : null;
