@@ -11,7 +11,6 @@ import { Link } from 'react-router-dom';
 import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
-import { Col, Row, Grid } from "react-native-grid-layout";
 
 const { TabPane } = Tabs;
 
@@ -147,11 +146,11 @@ export const AuctionListView = () => {
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
-      <Grid>
+      <Row>
         <Col>AZ</Col>
         <Col>EE</Col>
         <Col>SS</Col>
-      </Grid>
+      </Row>
       <Layout>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Col style={{ width: '100%', marginTop: 32 }}>
