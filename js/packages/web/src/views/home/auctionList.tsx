@@ -157,6 +157,7 @@ export const AuctionListView = () => {
         useBannerBg={true}
       />
       <Layout>
+     <p> {HowToWorkModal}</p>
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Col style={{ width: '100%', marginTop: 32 }}>
             <Row>
