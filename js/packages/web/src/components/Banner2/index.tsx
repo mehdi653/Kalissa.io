@@ -11,7 +11,7 @@ export const Banner2 = (props: {
 }) => {
   useEffect(() => {
     const mainBg = document.getElementById('main-bg');
-    const gradient = document.getElementById('bg-gradient');
+    //const gradient = document.getElementById('bg-gradient');
     if (mainBg && props.useBannerBg) {
       mainBg.style.backgroundImage = `url(${props.src})`;
       mainBg.style.display = 'inline-block';
@@ -22,12 +22,12 @@ export const Banner2 = (props: {
 
     return () => {
       const mainBg = document.getElementById('main-bg');
-      const gradient = document.getElementById('bg-gradient');
+      //const gradient = document.getElementById('bg-gradient');
       if (mainBg && props.useBannerBg) {
         mainBg.style.backgroundImage = '';
         mainBg.style.display = 'none';
       }
-      if (gradient) gradient.style.display = 'none';
+     // if (gradient) gradient.style.display = 'none';
     };
   }, [props.src, props.useBannerBg]);
 
