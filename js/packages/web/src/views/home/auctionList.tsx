@@ -154,7 +154,7 @@ export const AuctionListView = () => {
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
      
       
-        <p>test {InstructionsModal} </p> 
+        <p>test ShowModel()</p> 
       <Layout>
         
       
