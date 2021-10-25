@@ -83,15 +83,15 @@ export const InstructionsModalWork: React.FC<ModalProps> = ({
 
   const showModal = () => {
     onClick ? onClick() : null;
-    setIsModalVisible(true);
+    setIsModalVisible(false);
   };
 
   const handleOk = () => {
-    setIsModalVisible(false);
+    setIsModalVisible(true);
   };
 
   const handleCancel = () => {
-    setIsModalVisible(false);
+    setIsModalVisible(true);
   };
 
   return (
