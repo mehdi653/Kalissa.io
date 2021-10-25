@@ -157,7 +157,7 @@ export const AuctionListView = () => {
         headingText={''}
         subHeadingText={''}
         actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
-        useBannerBg={false}
+        useBannerBg={true}
       />
       
     
