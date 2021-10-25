@@ -73,7 +73,7 @@ interface ModalProps {
   onClick?: any;
 }
 
-export const InstructionsModal: React.FC<ModalProps> = ({
+export const InstructionsModalWork: React.FC<ModalProps> = ({
   
   modalTitle,
   cardProps,
