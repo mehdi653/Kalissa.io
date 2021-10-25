@@ -13,6 +13,7 @@ import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
 import { Banner2 } from '../../components/Banner2';
+import 'antd/dist/antd.less'
 
 
 
@@ -156,8 +157,8 @@ export const AuctionListView = () => {
     
       
       <div className="parent">
-      <div className="div1"> <Image src="'/how-to-buy-1.svg'" alt="" /></div>
-      <div className="div2"> <Image src="how-to-buy-1.svg" alt="" /></div>
+      <div className="div1"> <FastBackwardOutlined /></div>
+      <div className="div2"> </div>
       <div className="div3"> dff</div>
       </div>
       <Layout>
