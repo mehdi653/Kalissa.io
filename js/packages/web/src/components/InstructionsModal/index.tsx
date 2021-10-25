@@ -89,7 +89,7 @@ export const InstructionsModal: React.FC<ModalProps> = ({
   };
 
   const handleOk = () => {
-    setIsModalVisible(false);
+    setIsModalVisible(true);
   };
 
   const handleCancel = () => {
