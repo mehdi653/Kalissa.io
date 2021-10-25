@@ -160,10 +160,10 @@ export const AuctionListView = () => {
         actionComponent={<HowToWorkModal/>}
         useBannerBg={true}
       />
-        <p>test { HowToWorkModal }</p> 
-      <Layout>
+        <p>test {HowToBuyModal} </p> 
+      <Layout actionComponent={HowToWorkModal}>
         
-     
+      
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>
           <Col style={{ width: '100%', marginTop: 32 }}>
             <Row>
