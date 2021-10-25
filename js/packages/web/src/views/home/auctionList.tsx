@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
+import { Banner2 } from '../../components/Banner2';
 
 
 
@@ -152,7 +153,7 @@ export const AuctionListView = () => {
       />
       <h1>Welcome to the first collector's item brand supported by the NFT</h1>
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
-      <Banner
+      <Banner2
         src={'/kalibanniere2.svg'}
         headingText={'LIMITED & nft  .'}
         subHeadingText={'Collection of clothes unique.'}
