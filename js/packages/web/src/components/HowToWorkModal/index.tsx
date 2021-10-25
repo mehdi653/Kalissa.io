@@ -5,11 +5,12 @@ import { ConnectButton } from '@oyster/common';
 
 
 
-
+export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
+  
+  onClick,
 }) => {
   return (
     <InstructionsModalWork
-   
       
       modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
       cardProps={[
