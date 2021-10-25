@@ -161,7 +161,7 @@ export const AuctionListView = () => {
         useBannerBg={true}
       />
         <p>test {HowToBuyModal} </p> 
-      <Layout actionComponent={HowToWorkModal}>
+      <Layout>
         
       
         <Content style={{ display: 'flex', flexWrap: 'wrap' }}>

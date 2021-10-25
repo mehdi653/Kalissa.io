@@ -6,11 +6,11 @@ import { ConnectButton } from '@oyster/common';
 
 interface HowToWorkModalProps {
   
-  onClick?: any;
+  
 }
 export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
   
-  onClick,
+  
 }) => {
   return (
     <InstructionsModalWork
@@ -34,7 +34,7 @@ export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
           endElement: <ConnectButton className={'secondary-btn'} />,
         },
       ]}
-      onClick={onClick}
+    Ò
     />
   );
 };
