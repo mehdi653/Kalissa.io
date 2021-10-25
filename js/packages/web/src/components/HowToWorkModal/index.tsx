@@ -4,7 +4,10 @@ import { LABELS } from '../../constants';
 import { ConnectButton } from '@oyster/common';
 
 
-
+interface HowToWorkModalProps {
+  
+  onClick?: any;
+}
 export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
   
   onClick,
