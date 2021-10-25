@@ -156,9 +156,9 @@ export const AuctionListView = () => {
     
       
       <div className="parent">
-      <div className="div1"> <img src="'/modals/how-to-buy-1.svg'" alt="" /></div>
-      <div className="div2"> <img src="'/modals/how-to-buy-1.svg'" alt="" /></div>
-      <div className="div3"> <img src="'/modals/how-to-buy-1.svg'" alt="" /></div>
+      <div className="div1"> <img src="'../../modals/how-to-buy-1.svg'" alt="" /></div>
+      <div className="div2"> <img src="'../modals/how-to-buy-1.svg'" alt="" /></div>
+      <div className="div3"> <img src="'../../../modals/how-to-buy-1.svg'" alt="" /></div>
       </div>
       <Layout>
         
