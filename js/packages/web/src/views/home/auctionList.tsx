@@ -156,9 +156,9 @@ export const AuctionListView = () => {
     
       
       <div className="parent">
-        <p>1</p>
-        <p>2</p>
-        <p>3</p>
+      <div className="div1"> 1</div>
+      <div className="div2"> 2</div>
+      <div className="div3"> 3</div>
         </div>
       <Layout>
         
