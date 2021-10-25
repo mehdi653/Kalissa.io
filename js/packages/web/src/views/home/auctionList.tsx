@@ -160,7 +160,7 @@ export const AuctionListView = () => {
         actionComponent={<HowToWorkModal/>}
         useBannerBg={true}
       />
-        const {HowToBuyModal}
+        <p>test { HowToWorkModal }</p> 
       <Layout>
         
      

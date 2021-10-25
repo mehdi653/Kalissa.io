@@ -5,15 +5,15 @@ export const footerConf = {
     'Join our mailing list for updates about our artists and more.',
   components: [
     {
-      title: 'Company',
+      title: 'KALISSA',
       links: [
         {
           label: 'About',
-          url: 'www.solana.com',
+          url: 'www.kalissa.io',
         },
         {
           label: 'Terms of service',
-          url: 'www.solana.com',
+          url: 'www.kalissa.com',
         },
       ],
     },
