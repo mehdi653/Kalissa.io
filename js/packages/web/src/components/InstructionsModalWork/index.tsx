@@ -67,16 +67,14 @@ export const ModalContent: React.FC<ModalContentProps> = ({ children }) => {
 };
 
 interface ModalProps {
-  buttonClassName: string;
-  buttonText: string;
+  
   modalTitle: string;
   cardProps: any[];
   onClick?: any;
 }
 
-export const InstructionsModalWork: React.FC<ModalProps> = ({
-  buttonClassName,
-  buttonText,
+export const InstructionsModal: React.FC<ModalProps> = ({
+  
   modalTitle,
   cardProps,
   onClick,
@@ -98,9 +96,7 @@ export const InstructionsModalWork: React.FC<ModalProps> = ({
 
   return (
     <>
-      <Button className={buttonClassName} onClick={showModal}>
-        {buttonText}
-      </Button>
+      
       <Modal
         title={modalTitle}
         visible={isModalVisible}

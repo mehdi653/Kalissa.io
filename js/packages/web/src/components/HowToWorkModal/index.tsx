@@ -3,19 +3,14 @@ import React from 'react';
 import { LABELS } from '../../constants';
 import { ConnectButton } from '@oyster/common';
 
-interface HowToWorkModalProps {
-  buttonClassName: string;
-  onClick?: any;
-}
 
-export const HowToWorkModal: React.FC<HowToWorkModalProps> = ({
-  buttonClassName,
-  onClick,
+
+
 }) => {
   return (
     <InstructionsModalWork
-      buttonClassName={buttonClassName}
-      buttonText="How to Work"
+   
+      
       modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
       cardProps={[
         {

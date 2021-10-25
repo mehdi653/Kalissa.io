@@ -159,8 +159,7 @@ export const AuctionListView = () => {
         actionComponent={<HowToWorkModal buttonClassName="secondary-btn" />}
         useBannerBg={true}
       />
-        {HowToWorkModal}
-        <p>{HowToWorkModal}</p>
+        
       <Layout>
         
      
