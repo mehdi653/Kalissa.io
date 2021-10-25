@@ -6,7 +6,6 @@ import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
 import { HowToBuyModal } from '../../components/HowToBuyModal';
-import { HowToWorkModal } from '../../components/HowToWorkModal';
 import { AuctionViewState, useAuctions, AuctionView } from '../../hooks';
 import { AuctionRenderCard } from '../../components/AuctionRenderCard';
 import { Link } from 'react-router-dom';
@@ -153,13 +152,8 @@ export const AuctionListView = () => {
       />
       <h1>Welcome to the first collector's item brand supported by the NFT</h1>
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
-      <Banner2
-        src={'/kalibanniere2.svg'}
-        headingText={'LIMITED & nft  .'}
-        subHeadingText={'Collection of clothes unique.'}
-        actionComponent={<HowToWorkModal/>}
-        useBannerBg={true}
-      />
+     
+      
         <p>test {HowToBuyModal} </p> 
       <Layout>
         
