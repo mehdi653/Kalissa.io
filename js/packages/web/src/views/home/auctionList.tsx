@@ -2,7 +2,6 @@ import { useWallet } from '@solana/wallet-adapter-react';
 import { InstructionsModal } from '../../components/InstructionsModal';
 import { LABELS } from '../../constants';
 import { Col, Layout, Row, Tabs } from 'antd';
-import { Card, Modal, Button, Col, Row } from 'antd';
 import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
