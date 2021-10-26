@@ -11,15 +11,8 @@ import { CardLoader } from '../../components/MyLoader';
 import { useMeta } from '../../contexts';
 import { Banner } from '../../components/Banner';
 
-
-
-
-
-
 const { TabPane } = Tabs;
-
 const { Content } = Layout;
-
 export enum LiveAuctionViewState {
   All = '0',
   Participated = '1',
@@ -145,7 +138,7 @@ export const AuctionListView = () => {
     <>
       <Banner
         src={'/kalibanniere2.svg'}
-        headingText={'LIMITED & nft  '}
+        headingText={'LIMITED & nft66  '}
         subHeadingText={'Collection of items unique.'}
         actionComponent={<HowToBuyModal2 buttonClassName="secondary-btn" />}
         useBannerBg={true}
