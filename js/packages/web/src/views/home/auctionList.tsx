@@ -134,7 +134,7 @@ export const AuctionListView = () => {
     </Masonry>
   );
 
-  return (
+    return (
     <>
       <Banner
         src={'/kalibanniere2.svg'}
@@ -155,7 +155,7 @@ export const AuctionListView = () => {
             <Row>
               <Tabs
                 activeKey={activeKey}
-                onTabClick={key => setActiveKey(key as {LiveAuctionViewState)}
+                onTabClick={key => setActiveKey(key as LiveAuctionViewState)}
               >
                 <TabPane
                   tab={
