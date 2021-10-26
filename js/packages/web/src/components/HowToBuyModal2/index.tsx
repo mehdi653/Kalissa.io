@@ -21,7 +21,7 @@ export const HowToBuyModal2: React.FC<HowToBuyModal2Props> = ({
         {
           title: 'Mint  your nft ',
           imgSrc: '/modals/how-to-buy-1.svg',
-          description: `Partnership , co-branding , Artist . All creator choices are carefully selected  ${LABELS.STORE_NAME}. To keep your SOL safe, you’ll need a crypto wallet—we recommend using one called Phantom. Just head to Phantom’s site, install the Chrome extension, and create an account.`,
+          description: `Partnership , co-branding , Artist . All creator choices are carefully selected  ${LABELS.STORE_NAME}. `,
         },
         {
           title: 'Receive your nft and your item. ',
