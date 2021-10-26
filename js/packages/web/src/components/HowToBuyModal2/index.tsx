@@ -3,12 +3,12 @@ import React from 'react';
 import { LABELS } from '../../constants';
 import { ConnectButton } from '@oyster/common';
 
-interface HowToBuyModalProps {
+interface HowToBuyModal2Props {
   buttonClassName: string;
   onClick?: any;
 }
 
-export const HowToBuyModal: React.FC<HowToBuyModalProps> = ({
+export const HowToBuyModal2: React.FC<HowToBuyModal2Props> = ({
   buttonClassName,
   onClick,
 }) => {
@@ -19,7 +19,7 @@ export const HowToBuyModal: React.FC<HowToBuyModalProps> = ({
       modalTitle={`Buying NFTs on ${LABELS.STORE_NAME}`}
       cardProps={[
         {
-          title: 'Create a SOL wallet',
+          title: '22',
           imgSrc: '/modals/how-to-buy-1.svg',
           description: `SOL is the cryptocurrency we use for purchases on ${LABELS.STORE_NAME}. To keep your SOL safe, you’ll need a crypto wallet—we recommend using one called Phantom. Just head to Phantom’s site, install the Chrome extension, and create an account.`,
         },
