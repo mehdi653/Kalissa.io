@@ -6,7 +6,6 @@ import { Notifications } from '../Notifications';
 import useWindowDimensions from '../../utils/layout';
 import { MenuOutlined } from '@ant-design/icons';
 import { HowToBuyModal } from '../HowToBuyModal';
-import { HowToBuyModal2 } from '../HowToBuyModal2';
 import {
   Cog,
   CurrentUserBadge,
@@ -131,7 +130,7 @@ export const AppBar = () => {
         </div>
         <div className="app-right">
           {!connected && (
-            <HowToBuyModal2 buttonClassName="modal-button-default" />
+            <HowToBuyModal buttonClassName="modal-button-default" />
           )}
           {!connected && (
             <ConnectButton style={{ height: 48 }} allowWalletChange />

@@ -3,7 +3,7 @@ import { Col, Layout, Row, Tabs } from 'antd';
 import BN from 'bn.js';
 import React, { useState, useMemo } from 'react';
 import Masonry from 'react-masonry-css';
-import { HowToBuyModal } from '../../components/HowToBuyModal';
+import { HowToBuyModal2 } from '../../components/HowToBuyModal2';
 import { AuctionViewState, useAuctions, AuctionView } from '../../hooks';
 import { AuctionRenderCard } from '../../components/AuctionRenderCard';
 import { Link } from 'react-router-dom';
@@ -147,18 +147,11 @@ export const AuctionListView = () => {
         src={'/kalibanniere2.svg'}
         headingText={'LIMITED & nft  '}
         subHeadingText={'Collection of items unique.'}
-        actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
+        actionComponent={<HowToBuyModal2 buttonClassName="secondary-btn" />}
         useBannerBg={false}
       />
       <h1>Welcome to the first collector's item brand supported by the NFT</h1>
       <p className="textarea">The kalissa digital and physical collectibles are available in limited editions. They can be bought, sold and exchanged. </p>
-      <Banner
-        src={''}
-        headingText={''}
-        subHeadingText={''}
-        actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
-        useBannerBg={true}
-      />
       
     
       
