@@ -45,21 +45,7 @@ export const ENDPOINTS = [
     endpoint: 'https://bold-winter-fire.solana-mainnet.quiknode.pro/e84e351512506c66332adf7a843388878f1658a8/',
     ChainId: ChainId.MainnetBeta,
   },
-  {
-    name: 'mainnet-beta (Solana)' as ENV,
-    endpoint: 'https://bold-winter-fire.solana-mainnet.quiknode.pro/e84e351512506c66332adf7a843388878f1658a8/',
-    ChainId: ChainId.MainnetBeta,
-  },
-  {
-    name: 'mainnet-beta (Serum)' as ENV,
-    endpoint: 'https://solana-api.projectserum.com/',
-    ChainId: ChainId.MainnetBeta,
-  },
-  {
-    name: 'testnet' as ENV,
-    endpoint: clusterApiUrl('testnet'),
-    ChainId: ChainId.Testnet,
-  },
+  
   {
     name: 'devnet' as ENV,
     endpoint: clusterApiUrl('devnet'),
