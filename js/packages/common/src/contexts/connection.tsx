@@ -42,12 +42,12 @@ export type ENV =
 export const ENDPOINTS = [
   {
     name: 'mainnet-beta' as ENV,
-    endpoint: 'https://api.metaplex.solana.com/',
+    endpoint: 'https://bold-winter-fire.solana-mainnet.quiknode.pro/e84e351512506c66332adf7a843388878f1658a8/',
     ChainId: ChainId.MainnetBeta,
   },
   {
     name: 'mainnet-beta (Solana)' as ENV,
-    endpoint: 'https://api.mainnet-beta.solana.com',
+    endpoint: 'https://bold-winter-fire.solana-mainnet.quiknode.pro/e84e351512506c66332adf7a843388878f1658a8/',
     ChainId: ChainId.MainnetBeta,
   },
   {
