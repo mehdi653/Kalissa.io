@@ -42,10 +42,24 @@ export type ENV =
 export const ENDPOINTS = [
   {
     name: 'mainnet-beta' as ENV,
-    endpoint: 'https://bold-winter-fire.solana-mainnet.quiknode.pro/e84e351512506c66332adf7a843388878f1658a8/',
+    endpoint: 'https://api.metaplex.solana.com/',
     ChainId: ChainId.MainnetBeta,
   },
-  
+  {
+    name: 'mainnet-beta (Solana)' as ENV,
+    endpoint: 'https://api.mainnet-beta.solana.com',
+    ChainId: ChainId.MainnetBeta,
+  },
+  {
+    name: 'mainnet-beta (Serum)' as ENV,
+    endpoint: 'https://solana-api.projectserum.com/',
+    ChainId: ChainId.MainnetBeta,
+  },
+  {
+    name: 'testnet' as ENV,
+    endpoint: clusterApiUrl('testnet'),
+    ChainId: ChainId.Testnet,
+  },
   {
     name: 'devnet' as ENV,
     endpoint: clusterApiUrl('devnet'),
@@ -66,7 +80,7 @@ interface ConnectionConfig {
 
 const ConnectionContext = React.createContext<ConnectionConfig>({
   endpoint: DEFAULT,
-  setEndpoint: () => {},
+  setEndpoint: () => { },
   connection: new Connection(DEFAULT, 'recent'),
   env: ENDPOINTS[0].name,
   tokens: [],
@@ -102,7 +116,7 @@ export function ConnectionProvider({ children = undefined as any }) {
         .excludeByTag('nft')
         .filterByChainId(
           ENDPOINTS.find(end => end.endpoint === endpoint)?.ChainId ||
-            ChainId.MainnetBeta,
+          ChainId.MainnetBeta,
         )
         .getList();
 
@@ -122,7 +136,7 @@ export function ConnectionProvider({ children = undefined as any }) {
   useEffect(() => {
     const id = connection.onAccountChange(
       Keypair.generate().publicKey,
-      () => {},
+      () => { },
     );
     return () => {
       connection.removeAccountChangeListener(id);
@@ -272,7 +286,7 @@ export const sendTransactions = async (
   signersSet: Keypair[][],
   sequenceType: SequenceType = SequenceType.Parallel,
   commitment: Commitment = 'singleGossip',
-  successCallback: (txid: string, ind: number) => void = (txid, ind) => {},
+  successCallback: (txid: string, ind: number) => void = (txid, ind) => { },
   failCallback: (reason: string, ind: number) => boolean = (txid, ind) => false,
   block?: BlockhashAndFeeCalculator,
 ): Promise<number> => {
@@ -544,7 +558,7 @@ export async function sendSignedTransaction({
     }
 
     slot = confirmation?.slot || 0;
-  } catch (err) {
+  } catch (err: any) {
     console.error('Timeout Error caught', err);
     if (err.timeout) {
       throw new Error('Timed out awaiting confirmation on transaction');
@@ -554,7 +568,7 @@ export async function sendSignedTransaction({
       simulateResult = (
         await simulateTransaction(connection, signedTransaction, 'single')
       ).value;
-    } catch (e) {}
+    } catch (e) { }
     if (simulateResult && simulateResult.err) {
       if (simulateResult.logs) {
         for (let i = simulateResult.logs.length - 1; i >= 0; --i) {
